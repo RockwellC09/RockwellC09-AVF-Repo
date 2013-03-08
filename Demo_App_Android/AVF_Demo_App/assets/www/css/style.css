@@ -1,0 +1,42 @@
+body {
+    font-family: Georgia1, Georgia, serif;
+    padding: 0px;
+    margin: 0px auto;
+    background: #996E43;
+    color: white;
+}
+
+h1 {
+    font-family: Arial Black, Arial Black, Gadget, sans-serif;
+    font-size: 26px;
+    background: #68AED4;
+    padding: 5px;
+    margin: 0px;
+    box-shadow: .3px .3px 4px 1px #222;
+    -webkit-box-shadow: .3px .3px 4px 1px #222;
+}
+
+h3 {
+    margin-left: 5px;
+    text-decoration: underline;
+}
+
+p {
+    margin-left: 5px;
+    font-size: 12px;
+}
+
+.phone img {
+    width: 50%;
+    height: 50%;
+}
+
+.tfb img {
+    width: 50%;
+    height: 50%;
+}
+
+.research a {
+    margin-left: 5px;
+    color: white;
+}
