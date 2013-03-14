@@ -7,6 +7,7 @@ window.addEventListener("DOMContentLoaded", function(){
         $('#feed').empty();
         var query = $('#query').val();
         $.ajax({
+            "type": "GET",
             "url": 'http://search.twitter.com/search.json?q=' + query + '&result_type=mixed',
             "dataType": "json",
             "success": function(data) {
@@ -25,6 +26,7 @@ window.addEventListener("DOMContentLoaded", function(){
         var zip = $('#zip').val();
         $('#cps').empty();
         $.ajax({
+            "type": "GET",
             "url": 'http://api.8coupons.com/v1/getdeals?key=f4bf65f7ccd3a1cd10c251cba831d8b63e9377cace7c5e54fefa9cdef4dee4fcfb44509c244471d1e65080c917f99cf8&zip=' + zip,
             "dataType": "json",
             "success": function(data) {
