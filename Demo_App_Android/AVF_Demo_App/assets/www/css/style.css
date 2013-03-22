@@ -150,3 +150,68 @@ a {
     border: 3px solid #4d4d4d;
 }
 
+#pic {
+    margin: 10px auto;
+    background: #4d4d4d;
+    color: white;
+    padding: 10px;
+    width: 120px;
+    display: block;
+    border: none;
+    font-size: 14px;
+    -webkit-box-shadow: 1px 1px 2px rgba(50, 50, 50, 0.75);
+    -moz-box-shadow:    1px 1px 2px rgba(50, 50, 50, 0.75);
+    box-shadow:         1px 1px 2px rgba(50, 50, 50, 0.75);
+}
+
+#images img {
+    width: 50%;
+    height: 50%;
+    margin: 7px auto;
+    display: block;
+    border: 5px solid white;
+    -webkit-box-shadow: 1px 1px 2px rgba(50, 50, 50, 0.75);
+    -moz-box-shadow:    1px 1px 2px rgba(50, 50, 50, 0.75);
+    box-shadow:         1px 1px 2px rgba(50, 50, 50, 0.75);
+}
+
+.container {
+    margin: 10px auto;
+    text-align: center;
+    width: 400px;
+}
+
+label {
+    width: 200px;
+    float: left;
+}
+
+#subCon, #pbutton, #getGeo, #play, #stop {
+    font-family: Georgia1, Georgia, serif;
+    font-size: 18px;
+    height: 35px;
+    color: white;
+    background: #4d4d4d;
+    width: 150px;
+    margin: 10px auto;
+    display: block;
+    border: 4px solid white;
+    -webkit-box-shadow: 1px 1px 2px rgba(50, 50, 50, 0.75);
+    -moz-box-shadow:    1px 1px 2px rgba(50, 50, 50, 0.75);
+    box-shadow:         1px 1px 2px rgba(50, 50, 50, 0.75);
+}
+
+#pinfo, #geo {
+    font-family: Georgia1, Georgia, serif;
+    font-size: 18px;
+    background: white;
+    color: #4d4d4d;
+    margin: 0px auto;
+    width: 300px;
+    text-align: center;
+}
+
+#playInfo {
+    text-align: center;
+}
+
