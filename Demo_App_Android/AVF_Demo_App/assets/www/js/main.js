@@ -55,7 +55,7 @@ window.addEventListener("DOMContentLoaded", function(){
         //alert(mediaFiles[0].fullPath);
     }
     
-    $('#subCon').click(function() {
+    $('#submitContact').click(function() {
         
         //check for required fields
         if ($('#fname').val() == "" ||  $('#num').val() == "") {
